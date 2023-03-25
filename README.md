@@ -5,5 +5,7 @@
 
  Integrantes:
 Julio C. González Balderas
+
 Hannia Ortega Samaniego
+
 Sergio Iván Villegas Arenas

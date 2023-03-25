@@ -1,7 +1,7 @@
 # Proyecto_GraCom
  Proyecto de Gráficas computacionales
 
- Insstale el ditor de unity 2021.3.21f1
+ Instale el editor de Unity 2021.3.21f1
 
  
  Integrantes:

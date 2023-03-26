@@ -6,8 +6,8 @@
  
  Integrantes:
  
-Julio C. González Balderas
+Julio C. González Balderas A01367079
 
-Hannia Ortega Samaniego
+Hannia Ortega Samaniego A01283410
 
-Sergio Iván Villegas Arenas
+Sergio Iván Villegas Arenas A01625055

@@ -1,0 +1,236 @@
+Unity Editor version:    2021.3.21f1 (1b156197d683)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7 (Build 20G817)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/hanniasamaniego/Desktop/GPU/Untitled/GraCom
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54519
+Successfully changed project path to: /Users/hanniasamaniego/Desktop/GPU/Untitled/GraCom
+/Users/hanniasamaniego/Desktop/GPU/Untitled/GraCom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4607884800] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1604305000 [EditorId] 1604305000 [Version] 1048832 [Id] OSXEditor(0,Hannias-MacBook-Air-1930.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4607884800] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1604305000 [EditorId] 1604305000 [Version] 1048832 [Id] OSXEditor(0,Hannias-MacBook-Air-1930.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 464.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/hanniasamaniego/Desktop/GPU/Untitled/GraCom/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Graphics 6000 (low power)
+Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56717
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.008086 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 473.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4672ms)
+		BeginReloadAssembly (644ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (3252ms)
+			LoadAssemblies (639ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (937ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (266ms)
+			SetupLoadedEditorAssemblies (1754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (474ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (962ms)
+				ProcessInitializeOnLoadMethodAttributes (270ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/hanniasamaniego/Desktop/GPU/Untitled/GraCom/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/hanniasamaniego/Desktop/GPU/Untitled/GraCom/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7503ms)
+		BeginReloadAssembly (724ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (6123ms)
+			LoadAssemblies (699ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2140ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (376ms)
+			SetupLoadedEditorAssemblies (2679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (424ms)
+				ProcessInitializeOnLoadAttributes (1952ms)
+				ProcessInitializeOnLoadMethodAttributes (201ms)
+				AfterProcessingInitializeOnLoad (87ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (88.5 KB). Loaded Objects now: 3507.
+Memory consumption went from 102.6 MB to 102.6 MB.
+Total: 8.901282 ms (FindLiveObjects: 0.376492 ms CreateObjectMapping: 0.339219 ms MarkObjects: 7.925254 ms  DeleteObjects: 0.258384 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21591.311372 seconds.
+  path: Assets/ObeliskSet01_B.fbx
+  artifactKey: Guid(4e6b85d3b684d9a4bb8a5242b5d2a087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObeliskSet01_B.fbx using Guid(4e6b85d3b684d9a4bb8a5242b5d2a087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d12006b7f6d7962be8a80f081a457a') in 7.208619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002695 seconds.
+  path: Assets/ObeliskSet01_C.fbx
+  artifactKey: Guid(16e102bd06b56a5458dce3384d5b5884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObeliskSet01_C.fbx using Guid(16e102bd06b56a5458dce3384d5b5884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba1456a1ea8488bc928bb3458b0e7f8') in 0.387117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/ObeliskSet01_G.fbx
+  artifactKey: Guid(effde6a1073ac324ebb15bb08084dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObeliskSet01_G.fbx using Guid(effde6a1073ac324ebb15bb08084dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53231dc70541a8f966a18b3ea589f69') in 0.193452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/CavePlatform2_3.fbx
+  artifactKey: Guid(a402df940bc4fb74a93a0bbd3e241ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CavePlatform2_3.fbx using Guid(a402df940bc4fb74a93a0bbd3e241ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd6642b6e0904693ad0cde021031755') in 0.096952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/CavePlatform2_Set.fbx
+  artifactKey: Guid(67b6457d5f1c81648a8ab555bf6e6c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CavePlatform2_Set.fbx using Guid(67b6457d5f1c81648a8ab555bf6e6c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd6620e304fd90f90d2e70657550f0a') in 0.243970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/bamboo.fbx
+  artifactKey: Guid(64045384a97bca74d90ff0e230b754aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bamboo.fbx using Guid(64045384a97bca74d90ff0e230b754aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca43e7f56a18760d04fdce385abeb3c') in 0.120536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ObeliskSet01_F.fbx
+  artifactKey: Guid(82e56b70ee4545541b79a5e9ea44915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObeliskSet01_F.fbx using Guid(82e56b70ee4545541b79a5e9ea44915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c5b74e9e51dbdc8ed9169baa96b96e') in 0.096900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/CavePlatform2_1.fbx
+  artifactKey: Guid(dc88769fa87d660469bc006116f185db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CavePlatform2_1.fbx using Guid(dc88769fa87d660469bc006116f185db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47685c654a226146d05fabed8567bd10') in 0.121786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Moon_2K.fbx
+  artifactKey: Guid(f04dfe63a19a5bd42a982da2f08b6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moon_2K.fbx using Guid(f04dfe63a19a5bd42a982da2f08b6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c7d650c0f8f08733ebebb71e782535') in 0.047289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/luna_-_moon.obj
+  artifactKey: Guid(fa585aba76ae49542ac0210af012bcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/luna_-_moon.obj using Guid(fa585aba76ae49542ac0210af012bcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dab759dbfb43cb94c363fb15df25661') in 12.116964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.208975 seconds.
+  path: Assets/ObeliskSet01_D.fbx
+  artifactKey: Guid(97ddcafb90b717d47aceefe512f7f41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObeliskSet01_D.fbx using Guid(97ddcafb90b717d47aceefe512f7f41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306367867adcc7fd48bb16c077b524f7') in 0.625264 seconds 
